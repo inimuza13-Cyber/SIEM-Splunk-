@@ -23,7 +23,6 @@ Tujuan dari lab ini adalah untuk memahami bagaimana **Security Operations Center
 
 Aktivitas User → Log Autentikasi Linux → Splunk SIEM → Analisis Keamanan
 
-📸 **Screenshot yang perlu ditambahkan di sini**
 
 ![Arsitektur Lab](screenshots/arsitektur-lab.png)
 
@@ -57,8 +56,6 @@ Akses dashboard Splunk melalui browser:
 http://SERVER_IP:8000
 ```
 
-📸 **Screenshot yang perlu ditambahkan di sini**
-
 ![Halaman Login Splunk](screenshots/splunk-login.png)
 
 ---
@@ -84,8 +81,6 @@ Memastikan service SSH berjalan:
 ```bash
 sudo systemctl status ssh
 ```
-
-📸 **Screenshot yang perlu ditambahkan di sini**
 
 ![Status SSH Service](screenshots/ssh-status.png)
 
@@ -117,7 +112,6 @@ main
 
 Kemudian submit konfigurasi.
 
-📸 **Screenshot yang perlu ditambahkan di sini**
 
 ![Konfigurasi Add Data](screenshots/add-data.png)
 
@@ -133,7 +127,6 @@ index=main
 
 Jika konfigurasi berhasil, log autentikasi Linux akan muncul di Splunk.
 
-📸 **Screenshot yang perlu ditambahkan di sini**
 
 ![Log auth.log di Splunk](screenshots/auth-log.png)
 
@@ -153,7 +146,6 @@ Contoh log:
 Accepted password for muza from 192.168.100.62
 ```
 
-📸 **Screenshot yang perlu ditambahkan di sini**
 
 ![Login SSH Berhasil](screenshots/ssh-success.png)
 
@@ -173,7 +165,6 @@ Contoh log:
 Failed password for muza from 192.168.100.62
 ```
 
-📸 **Screenshot yang perlu ditambahkan di sini**
 
 ![Login SSH Gagal](screenshots/ssh-failed.png)
 
@@ -191,7 +182,6 @@ index=main "Failed password"
 
 Query ini membantu mengidentifikasi IP address yang melakukan percobaan login berulang.
 
-📸 **Screenshot yang perlu ditambahkan di sini**
 
 ![Deteksi Brute Force](screenshots/brute-force.png)
 
